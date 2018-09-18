@@ -1,0 +1,9 @@
+net: "/home/carlosh/GDrive/Investigacion/Deep Learning/LearnCFA/learncfa/prototxt/learncfa.prototxt"
+test_iter: 51
+base_lr: 0.001
+momentum: 0.9
+max_iter: 1500000
+snapshot: 5000
+snapshot_prefix: "/home/carlosh/GDrive/Investigacion/Deep Learning/LearnCFA/learncfa/models/prueba.h5"
+solver_mode: CPU
+snapshot_format: HDF5

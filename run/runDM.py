@@ -89,7 +89,7 @@ if args.cfa == 'lcfa':
 prev_shape = (0,0)
 print "Testing with noise std ", args.nstd
 for f in args.files:
-
+    print args.files
     # Read and truncate image to 8M x 8N
     img = np.float32(imread(f,plugin='freeimage'))/255.
     img = sr.trunc(img)
